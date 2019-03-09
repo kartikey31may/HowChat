@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/users_image"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/person"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="15dp"/>
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:id="@+id/users_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/users_image"
+        android:layout_toEndOf="@+id/users_image"
+        android:text="DisplayName"
+        android:textColor="#000"
+        android:textSize="16dp" />
+
+    <ImageView
+        android:id="@+id/users_online"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/users_image"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/ic_remove_circle_offline_64dp"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/users_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/users_name"
+        android:layout_marginTop="39dp"
+        android:text="Status"
+        android:textColor="#000"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/users_online_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ff0000"
+        android:layout_alignBottom="@+id/users_image"
+        android:layout_alignStart="@+id/users_name"
+        android:text="Offline" />
+
+    <View
+        android:layout_width="match_parent"
+        android:background="#a4a4a4"
+        android:layout_marginTop="10dp"
+        android:layout_height="1dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_below="@id/users_online_text"
+        android:layout_marginBottom="10dp"/>
+
+
+</RelativeLayout>

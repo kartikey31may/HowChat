@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "825926093732",
+    "firebase_url": "https://howchat-81ede.firebaseio.com",
+    "project_id": "howchat-81ede",
+    "storage_bucket": "howchat-81ede.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:825926093732:android:12ca9651fb529dd1",
+        "android_client_info": {
+          "package_name": "com.kartikey.howchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "825926093732-8l8epmaepgt2453uvvg1hbu73m1u3ebs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kartikey.howchat",
+            "certificate_hash": "635685c5987a3b51e566be03ef225e287a2ab0a3"
+          }
+        },
+        {
+          "client_id": "825926093732-r4k1nqcsvbmlvvpqa79fmcnjfltlsn6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxTL1UuFBumEgjvqnQZpdWrLSzXpWz1-Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "825926093732-r4k1nqcsvbmlvvpqa79fmcnjfltlsn6t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

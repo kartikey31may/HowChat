@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityStatus">
+
+    <include
+        android:id="@+id/status_pagetoolbar"
+        layout="@layout/app_bar_layout">
+
+    </include>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/statusEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp">
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="New Status" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/statussave_btn"
+        android:textColor="#fff"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:backgroundTint="@color/colorAccent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd= "20dp"
+        android:layout_marginTop="160dp"
+        android:text="Save Changes" />
+
+</RelativeLayout>
